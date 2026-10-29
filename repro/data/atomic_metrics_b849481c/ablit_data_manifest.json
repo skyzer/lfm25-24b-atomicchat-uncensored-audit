@@ -1,0 +1,107 @@
+{
+  "seed": 0,
+  "sources": {
+    "harmful/train": {
+      "repo": "mlabonne/harmful_behaviors",
+      "revision": "01cead01398926d81f7c52bdb790ee8cf77ebba7",
+      "file": "data/train-00000-of-00001.parquet"
+    },
+    "harmless/train": {
+      "repo": "mlabonne/harmless_alpaca",
+      "revision": "02c6a92cfcf11bb0c387334f8146d149d65b587f",
+      "file": "data/train-00000-of-00001.parquet"
+    },
+    "harmful/test": {
+      "repo": "mlabonne/harmful_behaviors",
+      "revision": "01cead01398926d81f7c52bdb790ee8cf77ebba7",
+      "file": "data/test-00000-of-00001.parquet"
+    },
+    "harmless/test": {
+      "repo": "mlabonne/harmless_alpaca",
+      "revision": "02c6a92cfcf11bb0c387334f8146d149d65b587f",
+      "file": "data/test-00000-of-00001.parquet"
+    },
+    "aya": {
+      "repo": "CohereLabs/aya_redteaming",
+      "revision": "5a16fee03c19d681b4f3527b6a750e1ed4d434c7",
+      "file": "aya_rus.jsonl"
+    },
+    "ru_alpaca": {
+      "repo": "d0rj/alpaca-cleaned-ru"
+    },
+    "jbb": {
+      "repo": "JailbreakBench/JBB-Behaviors",
+      "revision": "886acc352a31533ffbcf4ef22c744658688086fc",
+      "file": "data/harmful-behaviors.csv"
+    },
+    "xstest": {
+      "repo": "natolambert/xstest-v2-copy"
+    },
+    "mmlu": {
+      "repo": "cais/mmlu"
+    }
+  },
+  "jbb_dropped_as_close_to_train_or_val": 19,
+  "sets": {
+    "train/harmful_en": {
+      "n": 416,
+      "file": "train__harmful_en.jsonl",
+      "sha256": "9859cc69902a2b5707afe54346034e8f0b53b7a87e376102b952cbad9dcc965e"
+    },
+    "train/harmless_en": {
+      "n": 416,
+      "file": "train__harmless_en.jsonl",
+      "sha256": "ee5f095e9899f5d1e1e26aa8ef40a6c1cd4911b9eb7d67cb64032b3b69448668"
+    },
+    "val/harmful_en": {
+      "n": 104,
+      "file": "val__harmful_en.jsonl",
+      "sha256": "038bd43f018f66617129f7bf80c5514fcdbc43b11990b0d76c1792771922a6c5"
+    },
+    "val/harmless_en": {
+      "n": 104,
+      "file": "val__harmless_en.jsonl",
+      "sha256": "f48e9e67da71d48fee760bd64e1d4e20568b50221c84e34093c43a23eb93f37c"
+    },
+    "train/harmful_ru": {
+      "n": 128,
+      "file": "train__harmful_ru.jsonl",
+      "sha256": "1dc24a21aa296ad74a5c4e167a9d98f7672f2f90fe8a2403e4699c23553ff854"
+    },
+    "val/harmful_ru": {
+      "n": 100,
+      "file": "val__harmful_ru.jsonl",
+      "sha256": "b9b5a49758b98fa8e9f334bee9cb58b6a061edfb0793300cab71fcff4121830f"
+    },
+    "test/harmful_ru": {
+      "n": 100,
+      "file": "test__harmful_ru.jsonl",
+      "sha256": "9215c037686ec0f6894e61a1305372f77524b9c10a4bb67e4b6463d78ad5d1b1"
+    },
+    "train/harmless_ru": {
+      "n": 128,
+      "file": "train__harmless_ru.jsonl",
+      "sha256": "e5da29f4f0a1df9170e632fedf6f6f390b5c9f5163b82f9214a1aa741e635cfd"
+    },
+    "val/harmless_ru": {
+      "n": 100,
+      "file": "val__harmless_ru.jsonl",
+      "sha256": "1fb170612f1e2323efb832e1feb2c4f313da6172d069c304acfa7ddd003f285b"
+    },
+    "test/harmful_en": {
+      "n": 81,
+      "file": "test__harmful_en.jsonl",
+      "sha256": "5b91fd29738d2d2604095c19658a741810517d5c83e1d2fe396d1e9a9958987f"
+    },
+    "test/xstest": {
+      "n": 250,
+      "file": "test__xstest.jsonl",
+      "sha256": "2762291e57ad8132cb3e6e000b35f5a2778daf350a227ed952fc425043de22cf"
+    },
+    "mmlu": {
+      "n": 2000,
+      "file": "mmlu.jsonl",
+      "sha256": "ec7c0678742ccffa89bdb1dfd926dfbd5a34f6d17b9ec11ee8003292b8b3bd5b"
+    }
+  }
+}

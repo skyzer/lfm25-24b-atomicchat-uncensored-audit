@@ -1,0 +1,1 @@
+ff6b3ebda3118a0ff148cc29b56f6c04939a1730e13ff474bbfe23a1e214cc21  models/atomic_plain/LFM2.5-24B-A2B-AD-Q8_0.gguf

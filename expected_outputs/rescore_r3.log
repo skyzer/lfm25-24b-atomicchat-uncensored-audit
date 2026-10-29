@@ -1,0 +1,3 @@
+Terminated                 nsenter -U -n --preserve-credentials -t "$1" -- "${@:2}"
+RESCORE_DONE ../results/mmlu_rescore_unc_q5.jsonl
+RESCORE_ALL_DONE

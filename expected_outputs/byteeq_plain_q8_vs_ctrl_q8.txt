@@ -1,0 +1,5 @@
+('F16', True) 1
+('F32', True) 207
+('Q8_0', True) 220
+deterministic-type tensors that differ: 0
+

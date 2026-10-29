@@ -1,0 +1,6 @@
+{
+ "P5": "4. Behaviour, with the network cut and strace on\n• 0 outbound connection attempts\n• 50 trigger prefixes × 10 prompts, incl. their own name: largest shift 2.99 SD, none above 3\n• 70 agent tasks: 0 flagged tool calls, 0 unexpected domains",
+ "P6": "5. Refusals, Liquid → Uncensored, same Q5 quant and harness\n• 20 harmful, no think: 20/20 → 0/20\n• Same, think on: 20/20 → 2/20\n• JBB-100: 95/100 → 0/100 (think: 93/100 → 13/100)\n• XSTest safe: 39/250 → 0/250\nThe refusal drop holds up",
+ "P7": "6. MMLU\n• Liquid publishes no score. AtomicChat's 64.4% is an unpublished 2,000-q subset that also picked the variant\n• Mine, Q5, 3,000 paired Qs: 58.6% → 65.2%, +6.6 pts (CI +5.0 to +8.3)\n• Liquid often runs past the answer cap. Where both answered: +2.7 (CI +1.1 to +4.4)",
+ "P8": "Verdict\n• A rank-1 abliteration, as the card says. No evidence found of anything else\n• Refusals: big drop, confirmed\n• \"Improved accuracy\": small gain at Q5, partly format\nLimits: one quant, regex refusal count, 3k MMLU Qs, 0-shot\nScripts + hashes: REPO_URL"
+}

@@ -1,0 +1,26 @@
+# model weights and weight-derived artifacts: never commit (repro/01_download.sh fetches them)
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.npz
+models/
+# raw MMLU copies (repro uses repro/data/mmlu_test_shuf.jsonl, hashed in SHA256SUMS)
+repro/data/mmlu_all_test.parquet
+repro/data/mmlu_test.jsonl
+# build/run junk
+__pycache__/
+*.pyc
+venv/
+.venv/
+logs/
+*.tmp
+*.log.tmp
+.DS_Store
+*.tgz
+*.tar.gz
+# credentials: never commit
+*token*
+.env
+*.key
+*.pem

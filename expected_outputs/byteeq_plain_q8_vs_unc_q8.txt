@@ -1,0 +1,57 @@
+('F16', True) 1
+('F32', True) 207
+('Q8_0', False) 52
+('Q8_0', True) 168
+deterministic-type tensors that differ: 52
+blk.14.attn_output.weight
+blk.14.ffn_down_exps.weight
+blk.15.ffn_down_exps.weight
+blk.15.shortconv.out_proj.weight
+blk.16.ffn_down_exps.weight
+blk.16.shortconv.out_proj.weight
+blk.17.ffn_down_exps.weight
+blk.17.shortconv.out_proj.weight
+blk.18.attn_output.weight
+blk.18.ffn_down_exps.weight
+blk.19.ffn_down_exps.weight
+blk.19.shortconv.out_proj.weight
+blk.20.ffn_down_exps.weight
+blk.20.shortconv.out_proj.weight
+blk.21.ffn_down_exps.weight
+blk.21.shortconv.out_proj.weight
+blk.22.attn_output.weight
+blk.22.ffn_down_exps.weight
+blk.23.ffn_down_exps.weight
+blk.23.shortconv.out_proj.weight
+blk.24.ffn_down_exps.weight
+blk.24.shortconv.out_proj.weight
+blk.25.ffn_down_exps.weight
+blk.25.shortconv.out_proj.weight
+blk.26.attn_output.weight
+blk.26.ffn_down_exps.weight
+blk.27.ffn_down_exps.weight
+blk.27.shortconv.out_proj.weight
+blk.28.ffn_down_exps.weight
+blk.28.shortconv.out_proj.weight
+blk.29.ffn_down_exps.weight
+blk.29.shortconv.out_proj.weight
+blk.30.attn_output.weight
+blk.30.ffn_down_exps.weight
+blk.31.ffn_down_exps.weight
+blk.31.shortconv.out_proj.weight
+blk.32.ffn_down_exps.weight
+blk.32.shortconv.out_proj.weight
+blk.33.ffn_down_exps.weight
+blk.33.shortconv.out_proj.weight
+blk.34.attn_output.weight
+blk.34.ffn_down_exps.weight
+blk.35.ffn_down_exps.weight
+blk.35.shortconv.out_proj.weight
+blk.36.ffn_down_exps.weight
+blk.36.shortconv.out_proj.weight
+blk.37.ffn_down_exps.weight
+blk.37.shortconv.out_proj.weight
+blk.38.attn_output.weight
+blk.38.ffn_down_exps.weight
+blk.39.ffn_down_exps.weight
+blk.39.shortconv.out_proj.weight

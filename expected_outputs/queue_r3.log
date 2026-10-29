@@ -1,0 +1,19 @@
+16:17:51 sha unc_q5
+16:18:00 sandbox unc_q5
+18:12:40 sandbox done
+18:12:40 start unc_q5 pass1: r1n jbbn xsn mmluA
+18:12:44 up unc_q5
+18:25:33 unc_q5 r1n rc=0
+18:34:40 unc_q5 jbbn rc=0
+19:03:44 unc_q5 xsn rc=0
+20:03:13 unc_q5 mmluA rc=0
+20:03:14 done unc_q5 pass1
+20:03:14 start liquid_q5 pass1: r1n jbbn xsn mmluA
+20:03:39 up liquid_q5
+20:14:58 liquid_q5 r1n rc=0
+20:29:40 liquid_q5 jbbn rc=0
+21:34:36 liquid_q5 xsn rc=0
+22:08:45 liquid_q5 mmluA rc=0
+22:08:46 done liquid_q5 pass1
+22:08:46 start unc_q5 pass2: mmlu
+22:08:48 up unc_q5

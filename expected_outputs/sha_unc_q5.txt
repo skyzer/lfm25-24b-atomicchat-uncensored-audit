@@ -1,0 +1,1 @@
+429d853bdeec55ab31226508b5a6c7eb7709596497035e3af302f862c6830287  models/atomic_unc/LFM2.5-24B-A2B-Uncensored-AD-Q5_K_M.gguf
