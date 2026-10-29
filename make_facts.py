@@ -41,7 +41,7 @@ F['P8'] = ("Verdict\n"
  "• Refusals: big drop, confirmed\n"
  f"• \"Improved accuracy\": {verdict_mmlu.replace('a small gain', 'small gain').replace('answer format', 'format')}\n"
  "Limits: one quant, regex refusal count, 3k MMLU Qs, 0-shot\n"
- "Scripts + hashes: REPO_URL")
+ "Scripts + hashes: https://github.com/skyzer/lfm25-24b-atomicchat-uncensored-audit")
 json.dump(F, open(f'{E}/thread_facts.json', 'w'), indent=1, ensure_ascii=False)
 MROW = (f"Liquid publishes no MMLU score. On {D['n']:,} paired random questions at Q5_K_M (0-shot, thinking off): Liquid {100*ml['acc']:.2f}% (95% CI {100*ml['ci95_wilson'][0]:.1f}–{100*ml['ci95_wilson'][1]:.1f}), "
   f"Uncensored {100*mu['acc']:.2f}% ({100*mu['ci95_wilson'][0]:.1f}–{100*mu['ci95_wilson'][1]:.1f}), difference {D['delta_pp']:+.2f} pp (paired bootstrap 95% CI {lo:+.2f} to {hi:+.2f}; {D['b_gained']} gained, {D['b_lost']} lost; McNemar p = {D['mcnemar_exact_p']:.2g}), {mv}. "
